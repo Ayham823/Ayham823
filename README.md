@@ -1,55 +1,43 @@
-# Hi, I'm Ayham Mhameed 👋
+# Ayham Mhameed
 
-Computer Science student and Junior Software Engineer based in Israel.
+Computer Science student focused on backend engineering, full-stack product
+development, Linux environments, and practical DevOps.
 
-I am focused on Full-Stack Development, Backend Engineering, Cloud, DevOps, and AI-powered software products.
+I learn by building complete systems: APIs, databases, queues, web interfaces,
+AI service boundaries, containerized environments, CI checks, deployment
+workflows, and the documentation needed to operate them.
 
-Currently building **Qivro**, an AI-powered real estate platform designed as a production-style startup project.
+## Featured Project
 
-## 🔧 Tech Stack
+### [Qivro](https://github.com/Ayham823/Qivro)
 
-**Languages:** TypeScript, JavaScript, Python, SQL, C#, Java
-**Frontend:** React, Next.js, Tailwind CSS
-**Backend:** Node.js, NestJS, .NET 8, FastAPI basics
-**Database:** PostgreSQL, Prisma, Entity Framework Core
-**DevOps:** Docker, Docker Compose, Nginx, Linux, GitHub Actions basics
-**Cloud:** AWS basics
-**AI:** AI-assisted development, AI media workflows, real estate AI features
+Qivro is a multilingual real-estate platform designed as a multi-service
+system. It combines a Next.js customer application, a NestJS domain API,
+PostgreSQL, Redis and BullMQ, a FastAPI AI service, an independent operations
+console, and Docker-based infrastructure.
 
-## 🚀 Main Project: Qivro
+The public showcase includes verified product screenshots, architecture,
+engineering decisions, delivery workflows, and an honest implementation-status
+matrix.
 
-Qivro is an AI-powered real estate platform built with a production-oriented mindset.
+## Engineering Focus
 
-Main areas:
+- Backend APIs, authentication, authorization, and domain modeling
+- PostgreSQL, Prisma migrations, Redis, queues, and background workers
+- Next.js and TypeScript product interfaces with multilingual RTL support
+- Python and FastAPI service boundaries for controlled AI workflows
+- Linux/WSL troubleshooting, Docker Compose, Nginx, and service networking
+- CI/CD, health checks, smoke tests, backups, and rollback planning
 
-* Real estate listings
-* Search and filters
-* Property details
-* Favorites
-* User dashboard
-* Admin structure
-* Explore/Reels-style property discovery
-* AI Media Engine planning
-* AI Floor Plan planning
-* AI Cinematic Tour planning
-* Interactive 3D Tour planning
-* Docker-based local infrastructure
-* Backend API architecture
-* PostgreSQL database design
+## Technologies
 
-## 🎯 Current Focus
+`TypeScript` `Node.js` `NestJS` `Next.js` `React` `PostgreSQL` `Prisma`
+`Redis` `BullMQ` `Python` `FastAPI` `Docker` `Nginx` `GitHub Actions`
 
-* Cloud and DevOps fundamentals
-* Docker and Linux
-* Backend architecture
-* PostgreSQL and database design
-* CI/CD and deployment
-* AWS infrastructure
-* Building production-style projects
+## Current Goal
 
-## 📫 Contact
+I am looking for a student or junior opportunity in Backend Engineering,
+Software Engineering, DevOps, or infrastructure-focused development.
 
-Email: [ayham9659@gmail.com]
-LinkedIn: www.linkedin.com/in/ayham-mhameed-261960309
-
+The best place to start is the [Qivro engineering showcase](https://github.com/Ayham823/Qivro).
 
