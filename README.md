@@ -28,7 +28,7 @@ A multilingual engineering project spanning property discovery, owner workflows,
 - **What this demonstrates:** Frontend/backend integration, authentication and permissions, relational modeling, queue workers, container networking, migrations, and deployment planning.
 - **Limitations:** The public repository is a documentation and evidence showcase; source repositories are reviewed independently. No public live demo is currently offered.
 
-### 3. Smart Booking System — ASP.NET Core MVC
+### 3. [Smart Booking System — ASP.NET Core MVC](portfolio/SMART_BOOKING_SYSTEM.md)
 
 **C# · .NET 8 · SQL Server · Entity Framework Core · Identity · Docker**
 
