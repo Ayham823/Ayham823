@@ -58,4 +58,9 @@ I'm deepening my skills in backend engineering, test automation, AWS/cloud found
 
 **Open to:** Software Engineering Student, Junior Backend / Software Engineer, and Junior DevOps / Cloud opportunities in Israel or remote.
 
-Explore the [SmartCourse AI repository](https://github.com/Ayham823/SmartCourseAI) or the [Qivro engineering showcase](https://github.com/Ayham823/Qivro). You can reach me through my [GitHub profile](https://github.com/Ayham823).
+## Connect
+
+- [LinkedIn](https://www.linkedin.com/in/ayham-mhameed-261960309/)
+- [GitHub](https://github.com/Ayham823)
+
+Explore the [SmartCourse AI repository](https://github.com/Ayham823/SmartCourseAI) or the [Qivro engineering showcase](https://github.com/Ayham823/Qivro).
