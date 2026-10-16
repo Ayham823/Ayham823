@@ -29,7 +29,7 @@ flowchart TD
 1. **Role boundaries:** Different operations require different permissions; authorization must be enforced server-side, not only by hidden UI links.
 2. **Booking conflicts:** Slot availability depends on coach schedules and existing appointments; true simultaneous booking remains a database-concurrency consideration.
 3. **Data consistency:** Entity Framework Core migrations and domain models provide the data layer; controlled development seeding supports demonstrations.
-4. **Quality and security:** The private project has a .NET CI workflow and a small targeted test suite for model validation and authorization attributes. This does **not** establish full integration coverage or production readiness.
+4. **Quality and security:** The private project has a .NET CI workflow and a targeted test suite for model validation and authorization/anti-forgery attributes. **15/15 tests, the .NET build, and Docker image build passed CI on October 16, 2026**. This does **not** establish full integration coverage or production readiness.
 
 ## Honest project status
 
@@ -38,7 +38,7 @@ flowchart TD
 | MVC application and database model | Implemented in private source |
 | Admin / Coach / User flows | Implemented in private source |
 | GitHub Actions build and Docker image checks | Configured in private source |
-| Automated unit/attribute tests | Added; CI validation required for latest changes |
+| Automated unit/attribute tests | 15/15 passed in CI on October 16, 2026 |
 | Public runnable source or live demo | Not available |
 | Database-backed integration and concurrency testing | Still needs expansion |
 | Public release | Pending source/history security review |
