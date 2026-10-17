@@ -6,7 +6,7 @@
   <a href="https://www.linkedin.com/in/ayham-mhameed-261960309/">LinkedIn</a> ·
   <a href="https://github.com/Ayham823/SmartCourseAI">AI project</a> ·
   <a href="https://github.com/Ayham823/Qivro">Full-stack showcase</a> ·
-  <a href="portfolio/MENUAR.md">3D / AR project</a>
+  <a href="portfolio/SMART_BOOKING_SYSTEM.md">C# / Backend project</a>
 </p>
 
 # Hi, I'm Ayham
@@ -21,10 +21,9 @@ My focus is **backend engineering, applied AI, and practical DevOps**: clear ser
 | --- | --- | --- |
 | **[SmartCourse AI](https://github.com/Ayham823/SmartCourseAI)** | Study assistant routing questions to PDF-grounded RAG, validated Python tools, or direct LLM responses. Flask, Claude, LangChain, PostgreSQL/pgvector. | [Architecture](https://github.com/Ayham823/SmartCourseAI/blob/main/docs/architecture.md) · [Demo guide](https://github.com/Ayham823/SmartCourseAI/blob/main/docs/demo.md) · [Verification](https://github.com/Ayham823/SmartCourseAI/blob/main/docs/verification.md) |
 | **[Qivro](https://github.com/Ayham823/Qivro)** | Multilingual real-estate platform with customer, owner, and operator workflows. Next.js, NestJS, PostgreSQL, Redis, FastAPI, Docker. | [Product screenshots](https://github.com/Ayham823/Qivro#product-evidence) · [Architecture](https://github.com/Ayham823/Qivro#system-architecture) · [Current scope](https://github.com/Ayham823/Qivro/blob/main/docs/PROJECT_STATUS.md) |
-| **[MenuAR](portfolio/MENUAR.md)** | Restaurant menus connecting QR discovery, meal management, 3D viewing, and mobile AR. Next.js, NestJS, Prisma, FastAPI, GLB/USDZ. | [Project overview and architecture](portfolio/MENUAR.md) |
 | **[Smart Booking System](portfolio/SMART_BOOKING_SYSTEM.md)** | Training-center booking with Admin, Coach, and User roles. ASP.NET Core MVC, EF Core, SQL Server, Identity, Docker. | [Workflows, testing, and source availability](portfolio/SMART_BOOKING_SYSTEM.md) |
 
-**Availability:** SmartCourse AI has public source. Qivro's main repository is a public documentation and product-evidence showcase; its services are maintained separately. MenuAR and Smart Booking System are described here while their source remains private. These projects are local/academic work; no public hosted demo is claimed.
+**Availability:** SmartCourse AI has public source. Qivro's main repository is a public documentation and product-evidence showcase; its services are maintained separately. Smart Booking System is described here while its source remains private. MenuAR is an additional prototype under development. These projects are local/academic work; no public hosted demo is claimed.
 
 ## What I'm building now
 
