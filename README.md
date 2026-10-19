@@ -20,7 +20,7 @@ My focus is **backend engineering, applied AI, and practical DevOps**: clear ser
 | Project | What I built | Start here |
 | --- | --- | --- |
 | **[SmartCourse AI](https://github.com/Ayham823/SmartCourseAI)** | Study assistant routing questions to PDF-grounded RAG, validated Python tools, or direct LLM responses. Flask, Claude, LangChain, PostgreSQL/pgvector. | [Architecture](https://github.com/Ayham823/SmartCourseAI/blob/main/docs/architecture.md) · [Demo guide](https://github.com/Ayham823/SmartCourseAI/blob/main/docs/demo.md) · [Verification](https://github.com/Ayham823/SmartCourseAI/blob/main/docs/verification.md) |
-| **[Qivro](https://github.com/Ayham823/Qivro)** | Multilingual real-estate platform with customer, owner, and operator workflows. Next.js, NestJS, PostgreSQL, Redis, FastAPI, Docker. | [Product screenshots](https://github.com/Ayham823/Qivro#product-evidence) · [Architecture](https://github.com/Ayham823/Qivro#system-architecture) · [Current scope](https://github.com/Ayham823/Qivro/blob/main/docs/PROJECT_STATUS.md) |
+| **[Qivro](https://github.com/Ayham823/Qivro)** | Real-estate platform with customer, owner, and operator workflows. Next.js, NestJS, PostgreSQL, Redis, FastAPI, Docker. | [Product screenshots](https://github.com/Ayham823/Qivro#product-evidence) · [Architecture](https://github.com/Ayham823/Qivro#system-architecture) · [Current scope](https://github.com/Ayham823/Qivro/blob/main/docs/PROJECT_STATUS.md) |
 | **[Smart Booking System](portfolio/SMART_BOOKING_SYSTEM.md)** | Training-center booking with Admin, Coach, and User roles. ASP.NET Core MVC, EF Core, SQL Server, Identity, Docker. | [Workflows, testing, and source availability](portfolio/SMART_BOOKING_SYSTEM.md) |
 
 **Availability:** SmartCourse AI has public source. Qivro's main repository is a public documentation and product-evidence showcase; its services are maintained separately. Smart Booking System is described here while its source remains private. MenuAR is an additional prototype under development. These projects are local/academic work; no public hosted demo is claimed.
@@ -37,7 +37,7 @@ My focus is **backend engineering, applied AI, and practical DevOps**: clear ser
 | --- | --- |
 | Languages | TypeScript, JavaScript, Python, C#, Java, SQL, Bash |
 | Backend | NestJS, Node.js, Flask, FastAPI, ASP.NET Core MVC, REST APIs |
-| Frontend | Next.js, React, Tailwind CSS, Razor; multilingual and RTL interfaces |
+| Frontend | Next.js, React, Tailwind CSS, Razor |
 | Data | PostgreSQL, pgvector, Prisma, Redis, SQL Server, EF Core |
 | Delivery | Linux / WSL, Docker / Compose, Nginx, GitHub Actions, CI/CD |
 
