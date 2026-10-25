@@ -2,15 +2,15 @@
 
 **C# · ASP.NET Core MVC (.NET 8) · Entity Framework Core · SQL Server · ASP.NET Core Identity · Docker · GitHub Actions**
 
-An academic training-center booking project demonstrating server-rendered MVC, database modeling, role-based access, scheduling, and AJAX updates.
+An academic training-center booking application with server-rendered MVC, role-based access, conflict-aware scheduling, and tested account recovery.
 
-> **Source availability:** The source repository is private while security and Git-history review continue. This page is an engineering overview, not a public code release or hosted demo.
+> **Source availability:** The source remains private. This engineering overview describes verified local work; it is not a public source release or hosted demo.
 
 ## Core user flows
 
-- **User:** Choose a service, coach, date and available slot; book, view, and cancel appointments.
-- **Coach:** Manage schedule and view assigned appointments.
-- **Admin:** Manage services and coaches, review bookings, and inspect audit records.
+- **User:** Register, confirm an account, sign in, reset a password, choose a service/coach/slot, and book or cancel an appointment.
+- **Coach:** Manage availability and view assigned appointments.
+- **Admin:** Manage services, coaches and schedules, review bookings, and inspect audit records.
 
 ## Architecture at a glance
 
@@ -24,25 +24,37 @@ flowchart TD
   Audit --> Data
 ```
 
-## Engineering challenges
+## Engineering decisions
 
-1. **Role boundaries:** Different operations require different permissions; authorization must be enforced server-side, not only by hidden UI links.
-2. **Booking conflicts:** Slot availability depends on coach schedules and existing appointments; true simultaneous booking remains a database-concurrency consideration.
-3. **Data consistency:** Entity Framework Core migrations and domain models provide the data layer; controlled development seeding supports demonstrations.
-4. **Quality and security:** The private project has a .NET CI workflow and a targeted test suite for model validation and authorization/anti-forgery attributes. **15/15 tests, the .NET build, and Docker image build passed CI on October 16, 2026**. This does **not** establish full integration coverage or production readiness.
+1. **Protect bookings during schedule changes.** Bookings and schedule mutations acquire the same transaction-owned coach lock. Overlapping schedules and edits that would strand future appointments are rejected; audit records commit with the change.
+2. **Enforce permissions on the server.** Role checks, anti-forgery validation and explicit posted-field allowlists protect administration workflows.
+3. **Test actual account recovery.** Integration tests exercise Identity confirmation, cookie login, password-reset tokens and replay rejection using captured test mail.
+4. **Make production configuration explicit.** Confirmed accounts, allowed hostnames, persistent Data Protection keys, STARTTLS mail settings and trusted proxies are configured deliberately. Production migrations and seeding are opt-in.
 
-## Honest project status
+## Verification
+
+On **October 19, 2026**, **30 tests passed locally with no skipped cases** on .NET 8.0.32 against newly created SQL Server LocalDB test databases:
+
+| Coverage | Evidence |
+| --- | --- |
+| SQL Server / HTTP integration | 14 cases, including booking and schedule races, ownership and actual Identity flows |
+| Unit / configuration checks | 16 cases covering validation and security/configuration contracts |
+| Build and container delivery | GitHub Actions CI and Docker build passed for the reviewed release |
+| Dependency review | NuGet reported no vulnerable entries at verification time; browser dependencies updated from integrity-verified upstream packages |
+
+These results cover the tested scenarios, not every production workload. The mail tests capture messages in memory; real SMTP delivery has not been verified.
+
+## Current status
 
 | Area | Status |
 | --- | --- |
-| MVC application and database model | Implemented in private source |
-| Admin / Coach / User flows | Implemented in private source |
-| GitHub Actions build and Docker image checks | Configured in private source |
-| Automated unit/attribute tests | 15/15 passed in CI on October 16, 2026 |
-| Public runnable source or live demo | Not available |
-| Database-backed integration and concurrency testing | Still needs expansion |
-| Public release | Pending source/history security review |
+| MVC application, database model and role workflows | Implemented in private source |
+| Booking / schedule concurrency | Covered by SQL Server integration tests |
+| Registration, confirmation and password recovery | Covered by actual Identity HTTP tests |
+| Local product screenshots | Captured with synthetic demonstration data |
+| Public runnable source or hosted demo | Not available |
+| Production release | Still requires deployment-specific validation and completion of the deferred credential/history review |
 
-A reviewed screenshot or local demonstration may be added after verifying no private data is visible. No fictional demo, test result, or public URL is presented here.
+No private credentials or customer data are included in this overview.
 
 [Back to my GitHub portfolio](../README.md)
