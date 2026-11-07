@@ -11,7 +11,7 @@
 
 # Hi, I'm Ayham
 
-I'm a B.Sc. Computer Science student at **Netanya Academic College**, with an **87/100 GPA** and expected graduation in **2027**. I build software across APIs, databases, interfaces, AI services, and delivery workflows.
+I'm a B.Sc. Computer Science student at **Netanya Academic College**, with expected graduation in **2027**. I build software across APIs, databases, interfaces, AI services, and delivery workflows.
 
 My focus is **backend engineering, applied AI, and practical DevOps**: clear service boundaries, reproducible setups, and evidence that another engineer can inspect.
 
