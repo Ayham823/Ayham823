@@ -11,9 +11,7 @@
 
 # Hi, I'm Ayham
 
-I'm a B.Sc. Computer Science student at **Netanya Academic College**, with expected graduation in **2027**. I build software across APIs, databases, interfaces, AI services, and delivery workflows.
-
-My focus is **backend engineering, applied AI, and practical DevOps**: clear service boundaries, reproducible setups, and evidence that another engineer can inspect.
+I'm a B.Sc. Computer Science student at **Netanya Academic College**, graduating in **2027**. I build backend services and AI applications with reproducible tests, clear service boundaries, and practical delivery workflows.
 
 ## Selected work
 
@@ -23,12 +21,12 @@ My focus is **backend engineering, applied AI, and practical DevOps**: clear ser
 | **[Qivro](https://github.com/Ayham823/Qivro)** | Real-estate platform with customer, owner, and operator workflows. Next.js, NestJS, PostgreSQL, Redis, FastAPI, Docker. | [Product screenshots](https://github.com/Ayham823/Qivro#product-evidence) · [Architecture](https://github.com/Ayham823/Qivro#system-architecture) · [Current scope](https://github.com/Ayham823/Qivro/blob/main/docs/PROJECT_STATUS.md) |
 | **[Smart Booking System](portfolio/SMART_BOOKING_SYSTEM.md)** | Training-center booking with Admin, Coach, and User roles. ASP.NET Core MVC, EF Core, SQL Server, Identity, Docker. | [Workflows, testing, and source availability](portfolio/SMART_BOOKING_SYSTEM.md) |
 
-**Availability:** SmartCourse AI has public source. Qivro's main repository is a public documentation and product-evidence showcase; its services are maintained separately. Smart Booking System is described here while its source remains private. MenuAR is an additional prototype under development. These projects are local/academic work; no public hosted demo is claimed.
+**Availability:** SmartCourse AI has public source. Qivro's main repository is a public documentation and product-evidence showcase; its services are maintained separately. Smart Booking System is described here while its source remains private. These projects are local/academic work; no public hosted demo is claimed.
 
 ## What I'm building now
 
 - **Qivro:** Map-based discovery, owner insights, shared-living workflows, and explicit privacy/consent boundaries. [Development update](https://github.com/Ayham823/Qivro/blob/main/docs/DEVELOPMENT_UPDATE_2026_10.md).
-- **MenuAR:** A restaurant-owner → QR menu → meal → 3D/AR journey, with review controls around generated assets.
+- **SmartCourse AI:** Improving tool-execution reliability and evaluating retrieval with reproducible, offline checks.
 - **Engineering foundations:** Backend tests, cloud/AWS fundamentals, container delivery, and reliable release checks.
 
 ## Engineering toolkit
