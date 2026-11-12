@@ -19,9 +19,10 @@ I'm a B.Sc. Computer Science student at **Netanya Academic College**, graduating
 | --- | --- | --- |
 | **[SmartCourse AI](https://github.com/Ayham823/SmartCourseAI)** | Study assistant routing questions to PDF-grounded RAG, validated Python tools, or direct LLM responses. Flask, Claude, LangChain, PostgreSQL/pgvector. | [Architecture](https://github.com/Ayham823/SmartCourseAI/blob/main/docs/architecture.md) · [Demo guide](https://github.com/Ayham823/SmartCourseAI/blob/main/docs/demo.md) · [Verification](https://github.com/Ayham823/SmartCourseAI/blob/main/docs/verification.md) |
 | **[Qivro](https://github.com/Ayham823/Qivro)** | Real-estate platform with customer, owner, and operator workflows. Next.js, NestJS, PostgreSQL, Redis, FastAPI, Docker. | [Product screenshots](https://github.com/Ayham823/Qivro#product-evidence) · [Architecture](https://github.com/Ayham823/Qivro#system-architecture) · [Current scope](https://github.com/Ayham823/Qivro/blob/main/docs/PROJECT_STATUS.md) |
+| **[EvidenceGuard AI](https://github.com/Ayham823/EvidenceGuardAI-showcase)** | Exploratory Arabic–Hebrew evidence reliability, cited answers, and abstention research. | [Research overview](https://github.com/Ayham823/EvidenceGuardAI-showcase#readme) |
 | **[Smart Booking System](portfolio/SMART_BOOKING_SYSTEM.md)** | Training-center booking with Admin, Coach, and User roles. ASP.NET Core MVC, EF Core, SQL Server, Identity, Docker. | [Workflows, testing, and source availability](portfolio/SMART_BOOKING_SYSTEM.md) |
 
-**Availability:** SmartCourse AI has public source. Qivro's main repository is a public documentation and product-evidence showcase; its services are maintained separately. Smart Booking System is described here while its source remains private. These projects are local/academic work; no public hosted demo is claimed.
+**Availability:** SmartCourse AI has public source. Qivro's main repository is a public documentation and product-evidence showcase; its services are maintained separately. EvidenceGuard AI has a public research overview; its source and raw evaluation materials remain private. Smart Booking System is described here while its source remains private. These projects are local/academic work; no public hosted demo is claimed.
 
 ## What I'm building now
 
