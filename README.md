@@ -6,6 +6,7 @@
   <a href="https://www.linkedin.com/in/ayham-mhameed-261960309/">LinkedIn</a> ·
   <a href="https://github.com/Ayham823/SmartCourseAI">AI project</a> ·
   <a href="https://github.com/Ayham823/Qivro">Full-stack showcase</a> ·
+  <a href="https://github.com/Ayham823/EvidenceGuardAI-showcase">Research overview</a> ·
   <a href="portfolio/SMART_BOOKING_SYSTEM.md">C# / Backend project</a>
 </p>
 
